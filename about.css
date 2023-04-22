@@ -1,0 +1,149 @@
+*{
+    margin: 0;
+    padding: 0;
+    background: skyblue;
+}
+.heading{
+    text-align: center;
+    /* align-content: center; */
+    margin-top: 2vh;
+    background: wheat;
+    height: 10vh;
+    font-size: 8vw;
+    /* margin-top: -6vw; */
+}
+
+
+button{
+    color: black;
+    background:whitesmoke;
+    margin-top: 4vh;
+    border-radius: 5px;
+    padding: .5vw;
+    border: 2px solid skyblue;
+    font-size: 5vw;
+    
+}
+.profile{
+    font-size: 3vh ;
+    height: 3vh;
+    margin-top: 4vh;
+    background-color: wheat;
+
+}
+.summary{
+    font-size: 2vh ;
+    height: 8vh;
+    background-color:wheat;
+    padding: 2vw;
+}
+
+.edu{
+    font-size: 3vh ;
+    height: 5vh;
+    margin-top: 4vh;
+    background-color: wheat;
+}
+.EDUCATIONS{
+    font-size: 2vh ;
+    height: 15vh;
+    background-color:wheat;
+    padding: 2vw;
+    margin-top: -5px;
+
+}
+.lang{
+    font-size: 3vh ;
+    height: 3vh;
+    margin-top: 4vh;
+    background-color: wheat;
+}
+.language{
+    font-size: 2vh ;
+    height: 6vh;
+    background-color:wheat;
+    padding: 2vw;
+}
+.personal{
+    font-size: 3vh ;
+    height: 3vh;
+    margin-top: 4vh;
+    background-color: wheat;
+}
+.personaldetail{
+    font-size: 2vh ;
+    height: 12vh;
+    background-color:wheat;
+    padding: 2vw;
+}
+.train{
+    font-size: 3vh ;
+    height: 3vh;
+    margin-top: 4vh;
+    background-color: wheat;
+}
+.training{
+    font-size: 2vh ;
+    height: 12vh;
+    background-color:wheat;
+    padding: 2vw;
+}
+button:hover{
+    color: tomato;
+    cursor: pointer;
+    box-shadow: 10px 15px 5px;
+    
+}
+button:hover{
+    color: tomato;
+    cursor: pointer;
+    box-shadow: 10px 15px 5px;
+    background-color: black;
+}
+@media screen and (min-width: 1000px){
+    .heading{
+        height: 12vh;
+        font-size: 12vh;
+        }
+    .profile{
+        font-size: 5vh;
+    }
+    .summary{
+        font-size: 3vh;
+        height: 6vh;
+    }
+    button{
+        font-size: 3vh;
+        margin-left: 4vw;
+        padding: .5vw;
+        /* margin-top: -3vw; */
+        /* margin-bottom: 70vh; */
+    }
+    .edu{
+        font-size: 4vh;
+    }
+    .EDUCATIONS{
+        font-size: 3vh;
+        height: 8vh;
+    }
+    .lang{
+        font-size: 4vh;
+    }
+    .language{
+        font-size: 3vh;
+        height: 9vh;
+    }
+    .train{
+        font-size: 4vh;
+    }
+    .training{
+        font-size: 3vh;
+    }
+    .personal{
+        font-size: 4vh;
+    }
+    .personaldetail{
+        font-size: 3vh;
+        height: 15vh;
+    }
+}

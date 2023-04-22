@@ -1,0 +1,150 @@
+*{
+    margin: 0;
+    padding: 0;
+    background: skyblue;
+}
+.heading{
+    text-align: center;
+    margin-top: 2vh;
+    background: white;
+    height: 5vh;
+    font-size: 8vw;
+}
+.heading:hover{
+    background-color: black;
+    color:tomato
+}
+
+.b1{
+    display: inline;
+    display: flex;
+    margin-left: 55vw;
+}
+
+button{
+    color: black;
+    background:whitesmoke;
+    margin-top: 4vh;
+    border-radius: 5px;
+    padding: .5vw;
+    border: 2px solid skyblue;
+    font-size: 5vw;
+    
+}
+.intro{
+    background: whitesmoke;
+    color: black;
+    width: 55vw;
+    margin-top: 1vw;
+    margin-left: 2vw;
+    padding-top: 5vw;
+    font-size: 28px;
+    text-align: left;
+    transition: duration 2s;
+    
+    
+}
+
+.intro:hover{
+    color: tomato;
+    cursor: pointer;
+    box-shadow: 10px 15px 5px;
+    background-color: black;
+    /* color: gold; */
+}
+img{
+    position: absolute;
+    left: 60vw;
+    top: 33vw;    
+}
+img:hover{
+    color: tomato;
+    cursor: pointer;
+    box-shadow: 10px 15px 5px;
+}
+button:hover{
+    color: tomato;
+    cursor: pointer;
+    box-shadow: 10px 15px 5px;
+    background-color: black;
+}
+.insta{
+    position: absolute;
+    margin-left: 60vw;
+    margin-top: -35vw;
+}
+.insta img{
+    position: absolute;
+    margin-left: -35vw;
+    margin-top: -34vw;
+}
+.linkedin{
+    position: absolute;
+    margin-left: 60vw;
+    margin-top: -28vw;
+}
+.linkedin img{
+    margin-left: -35vw;
+    margin-top: -33vw;
+}
+.whatsapp{
+    position: absolute;
+    margin-left: -15vw;
+    margin-top: 7vw;
+}
+@media screen and (min-width: 1000px){
+    .heading{
+    height: 12vh;
+    font-size: 12vh;
+    }
+    .b1{
+        margin-left: 60vw;
+    }
+    button{
+        font-size: 3vh;
+        margin-left: 3vw;
+        padding: .5vw;
+    }
+    .intro{
+        margin-top: 1vw;
+        height: 28vh;
+        padding-top: 10vw;
+    }
+    img{
+    position: absolute;
+    left: 60vw;
+    top: 17vw;
+    width: 18vw;
+    }
+    .insta{
+        margin-left: 90vw;
+        font-size: 25px;
+        margin-top: -21vw;
+    }
+    .linkedin{
+        margin-left: 90vw;
+        font-size: 25px;
+        margin-top: -15vw;
+    }
+    .whatsapp{
+        margin-left: -9vw;
+        font-size: 25px;
+        margin-top: 6vw;
+    }
+    .insta img{
+        width: 3vw;
+        margin-top: -17vw;
+        margin-left: -68vw;
+    }
+    .linkedin img{
+        width: 3vw;
+        margin-top: -17vw;
+        margin-left: -68vw;
+    }
+    .whatsapp img{
+        width: 3vw;
+        margin-top: -17vw;
+        margin-left: -68vw;
+    }
+    
+}
